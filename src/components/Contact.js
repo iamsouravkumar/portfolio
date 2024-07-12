@@ -44,10 +44,26 @@ const Contact = () => {
   };
 
   return (
-    <>
-    <h1 style={{ color: "white", textAlign: "center", fontFamily: "calibri", marginTop: "5rem"}}>Contact Us</h1>
+    <div className='container contact'>
+      <h1 style={{ fontFamily: "sans-serif", textAlign:"center" }}>Contact Us</h1>
       <form onSubmit={handleSubmit} className="contact-form">
-        <div className="background">
+          <div className="mb-3">
+            <label htmlFor="exampleInputPassword1" className="form-label">Name:</label>
+            <input type="text" className="form-control" id="exampleInputPassword1 message" name="name" value={formData.name} onChange={handleChange} required />
+          </div>
+          <div className="mb-3">
+            <label htmlFor="exampleInputEmail1" className="form-label">Email address:</label>
+            <input type="email" className="form-control" id="exampleInputEmail1 email" name="email" aria-describedby="emailHelp" value={formData.email} onChange={handleChange} required />
+          </div>
+          <div className="mb-3">
+            <label htmlFor="exampleFormControlTextarea1" className="form-label">Message:</label>
+            <textarea className="form-control" id="exampleFormControlTextarea1 message" name="message" type="message" rows="3" value={formData.message} onChange={handleChange} required></textarea>
+          </div>
+          <div className="button-group">
+          <button type="submit" className="btn btn-primary">Send</button>
+          </div>
+        </form>
+        {/* <div className="background">
           <div className="container-2 container">
             <div className="screen">
               <div className="screen-body">
@@ -60,9 +76,7 @@ const Contact = () => {
                 </div>
                 <div className="screen-body-item">
                   <div className="app-form">
-                    <div className="app-form-group">
-                      <input className="app-form-control" placeholder="NAME" value="Please fill out the form For contact Us." />
-                    </div>
+                    
                     <div className="app-form-group">
                       <input className="app-form-control" placeholder="NAME" type="text" id="name" name="name" value={formData.name} onChange={handleChange} required />
                     </div>
@@ -72,7 +86,7 @@ const Contact = () => {
                     <div className="app-form-group message">
                       <input className="app-form-control" placeholder="MESSAGE" id="message" name="message" value={formData.message} onChange={handleChange} required />
                     </div>
-                    <div className="app-form-group buttons">
+                    <div className="app-form-group-buttons">
                       <button type="submit" className="app-form-button">Send</button>
                     </div>
                   </div>
@@ -80,10 +94,9 @@ const Contact = () => {
               </div>
             </div>
           </div>
-        </div>
-      </form>
+        </div> */}
       {showPopup && <Popup message={popupMessage} onClose={closePopup} />}
-    </>
+    </div>
   );
 };
 

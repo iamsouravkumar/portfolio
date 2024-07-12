@@ -5,8 +5,9 @@ import About from './components/About';
 import Footer from './components/Footer';
 import Main from './components/Main';
 import Navbar from './components/Navbar';
-import Skill from './components/Skill';
 import Contact from './components/Contact';
+import SkillSummary from './components/SkillSummary';
+import ChatButton from './components/ChatButton';
 
 function App() {
 
@@ -25,7 +26,7 @@ function App() {
     },
     {
       path: "/skill",
-      element: <><Navbar/><Skill /></>,
+      element: <><Navbar/><SkillSummary /></>,
     },
     {
       path: "/about",
@@ -40,6 +41,7 @@ function App() {
   return (
     <>
       <RouterProvider router={router} />
+      <ChatButton/>
       <Footer/>
     </>
   );

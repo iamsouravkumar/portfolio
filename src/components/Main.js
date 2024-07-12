@@ -6,11 +6,11 @@ const Main = () => {
 
     return (
         <>
-            <h1 style={{ color: "gold", fontFamily: "calibri", textAlign: "center", fontSize: "2rem", marginTop: "5rem" }}>
+            <h1 style={{ color: "gold", fontFamily: "calibri", textAlign: "center", fontSize: "2rem", marginTop: "5rem" }} className='main-h1'>
                 {" "}
                 <ReactTyped strings={["Hey, Welcome to My Portfolio."]} typeSpeed={100} />
             </h1>
-            <div className='container main my-4'>
+            <div className='container main'>
                 <div className="text my-4" >
                     <span className='h-text'>
                         <h4>Hello, it's Me</h4>
@@ -36,11 +36,11 @@ const Main = () => {
                     <div className="social">
                         <a href="http://facebook.com/sourav45k"><i className="fa-brands fa-facebook"></i></a>
                         <a href="https://instagram.com/iam_souravkumar"><i className="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i className="fa-brands fa-twitter"></i></a>
-                        <a href="#"><i className="fa-brands fa-linkedin"></i></a>
+                        <a href="/"><i className="fa-brands fa-twitter"></i></a>
+                        <a href="/"><i className="fa-brands fa-linkedin"></i></a>
                         <a href="http://github.com/iamsouravkumar"><i className="fa-brands fa-github"></i></a>
                     </div>
-                    <button type="button" className="btn btn-success my-4" style={{ backgroundColor: "#01E3F4", color: "black", borderRadius: "5rem", padding: "0.5rem" }}>Download CV</button>
+                    <a href="https://drive.google.com/file/d/1lWugghfGeuSW7RRuzstf0_N_Nh-_gtMN/view?usp=sharing"><button type="button" className="btn btn-success my-4" style={{ backgroundColor: "#01E3F4", color: "black", borderRadius: "5rem", padding: "0.5rem" }}>Download CV</button></a>
                 </div>
                 <div className="img">
                 </div>

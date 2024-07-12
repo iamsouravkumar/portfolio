@@ -3,7 +3,7 @@ import React from 'react'
 const Skill = () => {
   return (
     <>
-      <h1 style={{ color: "white", textAlign: "center", fontFamily: "calibri", marginTop:"5rem" }} className='container'>My Skills</h1>
+      <h1 style={{ color: "white", textAlign: "center", fontFamily: "calibri" }} className='container skill-h1'>My Skills</h1>
       <div className='skill container'>
         <div className='img-container'>
           <img src="../images/html.png" alt="HTML" />
