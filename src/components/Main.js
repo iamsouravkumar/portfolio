@@ -40,7 +40,7 @@ const Main = () => {
                         <a href="/"><i className="fa-brands fa-linkedin"></i></a>
                         <a href="http://github.com/iamsouravkumar"><i className="fa-brands fa-github"></i></a>
                     </div>
-                    <a href="https://drive.google.com/file/d/1lWugghfGeuSW7RRuzstf0_N_Nh-_gtMN/view?usp=sharing"><button type="button" className="btn btn-success my-4" style={{ backgroundColor: "#01E3F4", color: "black", borderRadius: "5rem", padding: "0.5rem" }}>Download CV</button></a>
+                    <a href="https://drive.google.com/file/d/1lWugghfGeuSW7RRuzstf0_N_Nh-_gtMN/view?usp=sharing"><button type="button" className="btn btn-success my-4" style={{ backgroundColor: "#01E3F4", color: "black", borderRadius: "5rem", border: "none", padding: "0.5rem" }}>Download CV</button></a>
                 </div>
                 <div className="main-img">
                 </div>
