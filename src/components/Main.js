@@ -32,7 +32,7 @@ const Main = () => {
                             />
                         </span></h4>
                     </span>
-                    <p className='p-about my-4'>Hi, I'm a full stack web developer who loves bringing ideas to life on the web. From designing cool interfaces to making sure everything works perfectly behind the scenes, I enjoy every part of the process. Let's create something awesome together!</p>
+                    <p className='main-text my-4'>Hi, I'm a full stack web developer who loves bringing ideas to life on the web. From designing cool interfaces to making sure everything works perfectly behind the scenes, I enjoy every part of the process. Let's create something awesome together!</p>
                     <div className="social">
                         <a href="http://facebook.com/sourav45k"><i className="fa-brands fa-facebook"></i></a>
                         <a href="https://instagram.com/iam_souravkumar"><i className="fa-brands fa-instagram"></i></a>
