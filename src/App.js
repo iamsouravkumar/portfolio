@@ -1,9 +1,8 @@
 import './App.css';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Home from './components/Home';
+import Main from './components/Main';
 import About from './components/About';
 import Footer from './components/Footer';
-import Main from './components/Main';
 import Navbar from './components/Navbar';
 import Contact from './components/Contact';
 import SkillSummary from './components/SkillSummary';
@@ -14,14 +13,10 @@ function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <><Navbar/><Home /></>,
+      element: <><Navbar/><Main /></>,
     },
     {
       path: "/home",
-      element: <><Navbar/><Home /></>,
-    },
-    {
-      path: "/main",
       element: <><Navbar/><Main /></>,
     },
     {

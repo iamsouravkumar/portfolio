@@ -40,15 +40,23 @@ body {
   width: 90%;
   height: auto;
   margin-top: 1rem;
+  padding: 0 5rem;
   border-radius: 10px;
   background-color: #3e3e3e;
   box-shadow: #000000ee 0 10px 25px;
 }
 
+.intro {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .text {
-  margin-left: 4rem;
+  padding: 0 4rem;
   color: white;
-  width: 50%;
+  width: 69%;
 }
 
 .h-text {
@@ -87,9 +95,12 @@ body {
 }
 
 .main-img img {
+  width: 29%;
+}
+
+.main-img img {
   height: 40vh;
-  width: 19vw;
-  margin-right: 4rem;
+  width: 20vw;
   border: 1px solid #01E3F4;
   box-shadow: #000000 0 5px 15px;
   border-radius: 10rem;
@@ -100,6 +111,7 @@ body {
   transform: scale(1.1);
   box-shadow: #01E3F4 0 5px 15px;
   cursor: pointer;
+  filter: contrast(1.2);
 }
 
 .skill {
@@ -182,9 +194,10 @@ body {
   align-items: center;
   width: 90%;
   height: auto;
-  padding: 3vh;
+  padding: 2rem;
   border-radius: 10px;
-  margin-top: 9rem;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
   background-color: #3e3e3e;
   box-shadow: #000000ee 0 10px 25px;
 }
@@ -207,6 +220,7 @@ body {
 .about-img img:hover {
   transition: ease-in-out 0.2s;
   transform: scale(1.1);
+  filter: contrast(1.2);
   box-shadow: #01E3F4 0 5px 15px;
   cursor: pointer;
 }
@@ -307,6 +321,7 @@ body {
   }
 
   .main {
+    padding: 0;
     margin-top: 1rem;
   }
 
@@ -325,7 +340,6 @@ body {
   }
 
   .text {
-    margin-left: 2rem;
     width: 100%;
   }
 
@@ -348,12 +362,17 @@ body {
 }
 
 @media screen and (max-width: 520px) {
+
+  .all{
+    padding: 0 2rem;
+  }
   .navbar-brand {
     font-size: 1.2rem;
   }
 
   .nav-link {
-    margin-left: 1rem;
+    padding: 1rem;
+    margin-left: 0rem;
     font-size: 0.9rem;
   }
 
@@ -363,8 +382,9 @@ body {
   }
 
   .text {
-    margin-left: 1rem;
+    padding: 0;
     width: 100%;
+    text-align: center;
   }
 
   .skills-summary {
@@ -375,26 +395,23 @@ body {
   .about {
     display: flex;
     flex-direction: column;
-    margin-bottom: 4rem;
+    justify-content: center;
+    align-items: center;
     height: auto;
-    margin-top: 4.5rem;
-    padding: 1rem;
+    padding: 0 2rem;
+    margin-bottom: 5rem;
   }
 
-  .about-text {
-    margin-top: 2rem;
+  .about-text{
     width: 90%;
   }
 
   .about-img {
-    margin-top: 1rem;
-    width: 30vw;
-    height: 32vh;
+    padding: 1.5rem 0;
   }
 
-  .about-img:hover {
-    box-shadow: #01E3F4 0 5px 15px;
-    cursor: pointer;
+  .about-img img {
+    width: 100%;
   }
 
   .button-group {
@@ -421,6 +438,26 @@ body {
 
   .social {
     margin-top: -1rem;
+  }
+
+  .social i{
+    padding: 0 1rem;
+  }
+
+  .intro {
+    padding: 0 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main-img {
+    padding: 1.5rem 0;
+  }
+
+  .main-img img {
+    width: 100%;
   }
 }
 

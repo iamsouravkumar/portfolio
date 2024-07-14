@@ -44,6 +44,7 @@ const Contact = () => {
   };
 
   return (
+    <div className="all">
     <div className='container contact'>
       <h1 style={{ fontFamily: "sans-serif", textAlign: "center" }}>Contact Us</h1>
       <form onSubmit={handleSubmit} className="contact-form">
@@ -64,6 +65,7 @@ const Contact = () => {
         </div>
       </form>
       {showPopup && <Popup message={popupMessage} onClose={closePopup} />}
+    </div>
     </div>
   );
 };
