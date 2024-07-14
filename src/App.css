@@ -86,12 +86,20 @@ body {
   transform: scale(1.1);
 }
 
-.main-img {
+.main-img img {
   height: 40vh;
-  width: 15vw;
+  width: 19vw;
   margin-right: 4rem;
-  border: 1px solid white;
-  border-radius: 1rem;
+  border: 1px solid #01E3F4;
+  box-shadow: #000000 0 5px 15px;
+  border-radius: 10rem;
+}
+
+.main-img img:hover {
+  transition: ease-in-out 0.2s;
+  transform: scale(1.1);
+  box-shadow: #01E3F4 0 5px 15px;
+  cursor: pointer;
 }
 
 .skill {
@@ -188,10 +196,19 @@ body {
   font-size: 1.3rem;
 }
 
-.about-img {
+.about-img img {
+  height: 35vh;
+  width: 17vw;
   border: 1px solid #01E3F4;
-  width: 14vw;
-  height: 32vh;
+  box-shadow: #000000 0 5px 15px;
+  border-radius: 10rem;
+}
+
+.about-img img:hover {
+  transition: ease-in-out 0.2s;
+  transform: scale(1.1);
+  box-shadow: #01E3F4 0 5px 15px;
+  cursor: pointer;
 }
 
 .contact {
