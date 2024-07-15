@@ -4,7 +4,7 @@ const Skill = () => {
   return (
     <>
       <div className="all">
-        <h1 style={{ color: "white", textAlign: "center", fontFamily: "calibri" }} className='container skill-h1'>My Skills</h1>
+        <h1 className='skill-h1'>My Skills</h1>
         <div className='skill container'>
           <div className='img-container'>
             <img src="../images/html.png" alt="HTML" />

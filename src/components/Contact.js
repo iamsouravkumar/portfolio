@@ -61,7 +61,7 @@ const Contact = () => {
           <textarea className="form-control" id="exampleFormControlTextarea1 message" name="message" type="message" rows="3" value={formData.message} onChange={handleChange} required></textarea>
         </div>
         <div className="button-group">
-          <button type="submit" className="btn btn-primary">Send</button>
+          <button type="submit" className="send-btn btn">Send</button>
         </div>
       </form>
       {showPopup && <Popup message={popupMessage} onClose={closePopup} />}
