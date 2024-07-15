@@ -545,7 +545,7 @@ background: linear-gradient(315deg, #8f3636, #d7e1ec);
   }
 
   .skill {
-    margin-top: 0;
+    margin-top: 2rem;
   }
 
   .skill-h1 {
@@ -564,6 +564,7 @@ background: linear-gradient(315deg, #8f3636, #d7e1ec);
     align-items: center;
     height: auto;
     padding: 0 2rem;
+    margin-top: 3rem;
     margin-bottom: 5rem;
   }
 
