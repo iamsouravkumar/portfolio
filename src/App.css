@@ -527,6 +527,10 @@ background: linear-gradient(315deg, #8f3636, #d7e1ec);
     font-size: 1.2rem;
   }
 
+  .navbar-toggler {
+    padding: 0 0.4rem;
+  }
+
   .nav-link {
     padding: 1rem;
     margin-left: 0rem;
