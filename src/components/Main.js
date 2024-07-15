@@ -3,13 +3,14 @@ import { TypeAnimation } from 'react-type-animation';
 import { ReactTyped } from "react-typed";
 import Skill from './Skill';
 import About from './About';
+import SocialMedia from './SocialMedia';
 
 const Main = () => {
 
     return (
         <>
         <div className='all'>
-            <h1 style={{ color: "gold", fontFamily: "calibri", textAlign: "center", fontSize: "2rem", marginTop: "5rem" }} className='main-h1'>
+            <h1 className='main-h1'>
                 {" "}
                 <ReactTyped strings={["Hey, Welcome to My Portfolio."]} typeSpeed={100} />
             </h1>
@@ -42,14 +43,7 @@ const Main = () => {
                         <div>
 
                             <div className='main-text my-4'>Hi, I'm a full stack web developer who loves bringing ideas to life on the web. From designing cool interfaces to making sure everything works perfectly behind the scenes, I enjoy every part of the process. Let's create something awesome together!</div>
-                            <div className="social">
-                                <a href="http://facebook.com/sourav45k"><i className="fa-brands fa-facebook"></i></a>
-                                <a href="https://instagram.com/iam_souravkumar"><i className="fa-brands fa-instagram"></i></a>
-                                <a href="/"><i className="fa-brands fa-twitter"></i></a>
-                                <a href="/"><i className="fa-brands fa-linkedin"></i></a>
-                                <a href="http://github.com/iamsouravkumar"><i className="fa-brands fa-github"></i></a>
-                            </div>
-                            <a href="https://drive.google.com/file/d/1lWugghfGeuSW7RRuzstf0_N_Nh-_gtMN/view?usp=sharing"><button type="button" className="btn btn-success my-4" style={{ backgroundColor: "#01E3F4", color: "black", borderRadius: "5rem", border: "none", padding: "0.5rem" }}>Download CV</button></a>
+                            <SocialMedia/>
                         </div>
                     </div>
                 </div>
