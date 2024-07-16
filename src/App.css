@@ -16,11 +16,11 @@ body {
   width: 100%;
   padding: 0.3rem 0;
   background-color: black;
+  font-family: poppins;
   z-index: 1;
 }
 
 .navbar-brand {
-  font-family: calibri;
   font-size: 1.5rem;
 }
 
@@ -51,7 +51,7 @@ body {
 
 .main-h1 {
   color: gold;
-  font-family: calibri;
+  font-family: poppins;
   text-align: center;
   font-size: 2rem;
   margin-top: 5rem;
@@ -72,7 +72,7 @@ body {
 }
 
 .h-text {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: poppins;
 }
 
 .main-text {
@@ -298,7 +298,7 @@ background: linear-gradient(315deg, #8f3636, #d7e1ec);
 
 .skills-summary ul li strong {
   color: #01E3F4;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: poppins;
 }
 
 .img-container {
@@ -507,7 +507,7 @@ background: linear-gradient(315deg, #8f3636, #d7e1ec);
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 520px) {
 
   .all {
     padding: 0 2rem;
@@ -515,6 +515,7 @@ background: linear-gradient(315deg, #8f3636, #d7e1ec);
 
   .main-h1 {
     padding: 0;
+    font-size: 1.7rem;
   }
 
   .about-h1 {
@@ -522,7 +523,7 @@ background: linear-gradient(315deg, #8f3636, #d7e1ec);
   }
 
   .navbar-brand {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
   .navbar-toggler {
@@ -558,6 +559,11 @@ background: linear-gradient(315deg, #8f3636, #d7e1ec);
   .skills-summary {
     font-size: 1rem;
     padding: 1rem;
+  }
+
+  .contact {
+    height: auto;
+    padding: 4rem 2rem;
   }
 
   .about {
