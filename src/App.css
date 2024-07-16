@@ -3,7 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  /* #01E3F4 */
+  box-sizing: border-box;
 }
 
 body {
@@ -80,12 +80,6 @@ body {
   font-size: 1.05rem;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 *:focus,
 *:active {
   outline: none !important;
@@ -93,15 +87,6 @@ body {
 }
 
 /*Social Media Icons CSS*/
-
-/* html,
-body {
-display: grid;
-height: 100vh;
-width: 100%;
-place-items: center;
-background: linear-gradient(315deg, #8f3636, #d7e1ec);
-} */
 
 .wrapper {
   display: inline-flex;
@@ -223,6 +208,8 @@ background: linear-gradient(315deg, #8f3636, #d7e1ec);
   color: #fff;
 }
 
+/*social media icons end */
+
 .btn {
   transition: ease-in-out 0.1s;
 }
@@ -231,10 +218,6 @@ background: linear-gradient(315deg, #8f3636, #d7e1ec);
   box-shadow: #01E3F4 0px 5px 15px;
   transform: scale(1.1);
 }
-
-/* .main-img img {
-  width: 29%;
-} */
 
 .main-img img {
   height: 280px;
