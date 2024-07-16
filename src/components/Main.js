@@ -42,7 +42,7 @@ const Main = () => {
                         </span>
                         <div>
 
-                            <div className='main-text my-4'>Hi, I'm a full stack web developer who loves bringing ideas to life on the web. From designing cool interfaces to making sure everything works perfectly behind the scenes, I enjoy every part of the process. Let's create something awesome together!</div>
+                            <div className='main-text my-4'>Hi, I'm a FullStack Web Developer who loves bringing ideas to life on the web. From designing cool interfaces to making sure everything works perfectly behind the scenes, I enjoy every part of the process. Let's create something awesome together!</div>
                             <SocialMedia/>
                         </div>
                     </div>
