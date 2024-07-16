@@ -455,17 +455,15 @@ background: linear-gradient(315deg, #8f3636, #d7e1ec);
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 5px;
+  padding: 1rem 0;
   position: fixed;
   bottom: 0;
   background-color: black;
 }
 
 .footer-text {
-  text-align: center;
   color: white;
-  font-size: 1.1rem;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: poppins;
 }
 
 @media screen and (max-width: 768px) {
@@ -589,17 +587,8 @@ background: linear-gradient(315deg, #8f3636, #d7e1ec);
     width: 15vw;
   }
 
-  .footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
   .footer-text {
-    text-align: center;
-    color: white;
-    font-size: 1rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.8rem;
   }
 
   .intro {
