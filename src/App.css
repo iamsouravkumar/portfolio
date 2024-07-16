@@ -90,6 +90,7 @@ body {
 
 .wrapper {
   display: inline-flex;
+  gap: 10px;
 }
 
 .wrapper .icon {
@@ -327,7 +328,8 @@ body {
 }
 
 .about-text {
-  width: 70%;
+  width: 100%;
+  padding: 0 2rem;
   color: white;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 1.3rem;
@@ -493,7 +495,7 @@ body {
 @media only screen and (max-width: 520px) {
 
   .all {
-    padding: 0 2rem;
+    padding: 0 1rem;
   }
 
   .main-h1 {
@@ -535,9 +537,9 @@ body {
     padding: 2rem 1rem;
   }
 
-  .skill-h1 {
+  /* .skill-h1 {
     padding: 1rem 0;
-  }
+  } */
 
   .skills-summary {
     font-size: 1rem;
@@ -555,13 +557,14 @@ body {
     justify-content: center;
     align-items: center;
     height: auto;
-    padding: 0 2rem;
+    padding: 0 10px;
     margin-top: 3rem;
     margin-bottom: 5rem;
   }
 
   .about-text {
-    width: 90%;
+    font-size: 14px;
+    padding: 0;
   }
 
   .about-img {
@@ -569,8 +572,8 @@ body {
   }
 
   .about-img img {
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 180px;
   }
 
   .btn-primary {
@@ -594,20 +597,49 @@ body {
   }
 
   .main-img img {
-    height: 220px;
-    width: 220px;
+    height: 200px;
+    width: 200px;
+  }
+
+  .main-text {
+    font-size: 14px;
+  }
+
+  .about-img img {
+    height: 180px;
+    width: 180px;
+  }
+}
+
+@media screen and (max-width:360px) {
+  .intro {
+    padding: 0 1rem;
+  }
+
+  .main-h1 {
+    font-size: 19px;
+  }
+
+  .wrapper .icon {
+    height: 15px;
+    width: 15px;
+  }
+
+  .wrapper {
+    gap: 8px;
+  }
+
+  .main-text {
+    font-size: 14px;
+  }
+
+  .main-img img {
+    height: 200px;
+    width: 200px;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .screen-body {
-    padding: 40px;
-  }
-
-  .screen-body-item {
-    padding: 0;
-  }
-
   .img-container {
     width: 90%;
   }

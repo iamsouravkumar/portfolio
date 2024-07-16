@@ -14,13 +14,13 @@ const Main = () => {
                 {" "}
                 <ReactTyped strings={["Hey, Welcome to My Portfolio."]} typeSpeed={100} />
             </h1>
-            <div className='container main'>
-                <div className='intro'>
+            <div className='container main card' style={{maxWidth:"100%"}}>
+                <div className='intro card-body'>
                 <div className="main-img">
                         <img src="../images/sourav-p.png" alt="Sourav" />
                     </div>
                     <div className="text" >
-                        <span className='h-text'>
+                        <div className='h-text'>
                             <h4>Hello, it's Me</h4>
                             <h1>Sourav Kumar</h1>
                             {/* <h4>And I'm a <span style={{ color: "#01E3F4" }}>Full Stack Developer</span></h4> */}
@@ -39,12 +39,11 @@ const Main = () => {
                                     style={{ fontSize: '1.5rem' }}
                                 />
                             </span></h4>
-                        </span>
-                        <div>
-
+                        </div>
+                        
                             <div className='main-text my-4'>Hi, I'm a FullStack Web Developer who loves bringing ideas to life on the web. From designing cool interfaces to making sure everything works perfectly behind the scenes, I enjoy every part of the process. Let's create something awesome together!</div>
                             <SocialMedia/>
-                        </div>
+                       
                     </div>
                 </div>
             </div>
