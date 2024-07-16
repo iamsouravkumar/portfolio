@@ -232,16 +232,16 @@ background: linear-gradient(315deg, #8f3636, #d7e1ec);
   transform: scale(1.1);
 }
 
-.main-img img {
+/* .main-img img {
   width: 29%;
-}
+} */
 
 .main-img img {
-  height: 40vh;
-  width: 20vw;
+  height: 280px;
+  width: 280px;
   border: 1px solid #01E3F4;
   box-shadow: #000000 0 5px 15px;
-  border-radius: 10rem;
+  border-radius: 20rem;
 }
 
 .main-img img:hover {
@@ -351,11 +351,11 @@ background: linear-gradient(315deg, #8f3636, #d7e1ec);
 }
 
 .about-img img {
-  height: 35vh;
-  width: 17vw;
+  height: 220px;
+  width: 220px;
   border: 1px solid #01E3F4;
   box-shadow: #000000 0 5px 15px;
-  border-radius: 10rem;
+  border-radius: 20rem;
 }
 
 .about-img img:hover {
@@ -509,7 +509,7 @@ background: linear-gradient(315deg, #8f3636, #d7e1ec);
   }
 }
 
-@media screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
 
   .all {
     padding: 0 2rem;
@@ -581,7 +581,8 @@ background: linear-gradient(315deg, #8f3636, #d7e1ec);
   }
 
   .about-img img {
-    width: 100%;
+    height: 200px;
+    width: 200px;
   }
 
   .btn-primary {
@@ -614,7 +615,8 @@ background: linear-gradient(315deg, #8f3636, #d7e1ec);
   }
 
   .main-img img {
-    width: 100%;
+    height: 220px;
+    width: 220px;
   }
 }
 
