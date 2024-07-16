@@ -260,7 +260,7 @@ background: linear-gradient(315deg, #8f3636, #d7e1ec);
   gap: 1rem;
   width: 90%;
   height: auto;
-  padding: 2rem 0;
+  padding: 2rem;
   margin-bottom: 3rem;
   margin-top: 2rem;
   border-radius: 10px;
@@ -548,6 +548,7 @@ background: linear-gradient(315deg, #8f3636, #d7e1ec);
 
   .skill {
     margin-top: 2rem;
+    padding: 2rem 1rem;
   }
 
   .skill-h1 {
