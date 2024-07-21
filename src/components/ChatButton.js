@@ -8,7 +8,7 @@ function ChatButton() {
         countryCode="91"
         phoneNumber="8929174543"
         animated
-        style={{marginBottom:"2rem", backgroundColor: "#01E3F4"}}
+        style={{backgroundColor: "#01E3F4"}}
       />
     </div>
   )

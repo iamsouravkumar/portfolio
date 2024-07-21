@@ -7,6 +7,7 @@ import Navbar from './components/Navbar';
 import Contact from './components/Contact';
 import SkillSummary from './components/SkillSummary';
 import ChatButton from './components/ChatButton';
+import Portfolio from './components/Portfolio';
 
 function App() {
 
@@ -18,6 +19,10 @@ function App() {
     {
       path: "/home",
       element: <><Navbar/><Main /></>,
+    },
+    {
+      path: "/portfolio",
+      element: <><Navbar/><Portfolio/></>
     },
     {
       path: "/skill",

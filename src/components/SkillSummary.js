@@ -1,32 +1,63 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 
 const SkillSummary = () => {
   return (
     <>
       <div className="all">
+        <div className="skill-summary container">
         <h1 style={{ color: "white", textAlign: "center", fontFamily: "calibri" }} className='container'>My Skills</h1>
         <div className='skill container'>
-          <div className='img-container'>
-            <img src="../images/html.png" alt="HTML" />
-          </div>
-          <div className='img-container'>
-            <img src="../images/css.png" alt="CSS" />
-          </div>
-          <div className='img-container'>
-            <img src="../images/js.webp" alt="CSS" />
-          </div>
-          <div className='img-container'>
-            <img src="../images/react.png" alt="CSS" />
-          </div>
-          <div className='img-container'>
-            <img src="../images/node.png" alt="CSS" />
-          </div>
-          <div className='img-container'>
-            <img src="../images/db.png" alt="CSS" />
-          </div>
+          
+        <div className='img-container'>
+              <motion.img src="../images/html.png" alt="HTML"
+                whileHover={{ scale: 1.5 }}
+                whileTap={{ scale: 0.95 }}
+                transition={{ duration: 0.3 }}
+                style={{ willChange: 'transform' }} />
+            </div>
+
+            <div className='img-container'>
+              <motion.img src="../images/css.png" alt="CSS"
+                whileHover={{ scale: 1.5 }}
+                whileTap={{ scale: 0.95 }}
+                transition={{ duration: 0.3 }}
+                style={{ willChange: 'transform' }} />
+            </div>
+
+            <div className='img-container'>
+              <motion.img src="../images/js.webp" alt="CSS"
+                whileHover={{ scale: 1.5 }}
+                whileTap={{ scale: 0.95 }}
+                transition={{ duration: 0.3 }}
+                style={{ willChange: 'transform' }} />
+            </div>
+
+            <div className='img-container'>
+              <motion.img src="../images/react.png" alt="CSS"
+                whileHover={{ scale: 1.5 }}
+                whileTap={{ scale: 0.95 }}
+                transition={{ duration: 0.3 }}
+                style={{ willChange: 'transform' }} />
+            </div>
+
+            <div className='img-container'>
+              <motion.img src="../images/node.png" alt="CSS"
+                whileHover={{ scale: 1.5 }}
+                whileTap={{ scale: 0.95 }}
+                transition={{ duration: 0.3 }}
+                style={{ willChange: 'transform' }} />
+            </div>
+
+            <div className='img-container'>
+              <motion.img src="../images/dbs.svg" alt="CSS" whileHover={{ scale: 1.5 }}
+                whileTap={{ scale: 0.95 }}
+                transition={{ duration: 0.3 }}
+                style={{ willChange: 'transform' }} />
+            </div>
 
         </div>
-        <div className='container skills-summary'>
+        <div className='skills-def'>
           <ul>
             <li>
               <strong>HTML:</strong>
@@ -77,6 +108,7 @@ const SkillSummary = () => {
               </ul>
             </li>
           </ul>
+        </div>
         </div>
       </div>
     </>
