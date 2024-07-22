@@ -4,6 +4,7 @@ import { NavLink, Link } from 'react-router-dom'
 const Navbar = () => {
 
   const [isScrolled, setIsScrolled] = useState(false);
+  const [stick, setStick] = useState(false)
   const [isOpen, setIsOpen] = useState(false);
   const [collapsing, setCollapsing] = useState(false);
 
@@ -11,8 +12,10 @@ const Navbar = () => {
     const handleScroll = () => {
       if (window.scrollY > 100) {
         setIsScrolled(true);
+        setStick(true)
       } else {
         setIsScrolled(false);
+        setStick(false)
       }
     };
 
@@ -29,7 +32,7 @@ const Navbar = () => {
       setTimeout(() => {
         setIsOpen(false);
         setCollapsing(false);
-      }, 500); // Match the transition duration
+      }, ); // Match the transition duration
     } else {
       setIsOpen(true);
     }
@@ -40,12 +43,12 @@ const Navbar = () => {
     setTimeout(() => {
       setIsOpen(false);
       setCollapsing(false);
-    }, 500); // Match the transition duration
+    }, ); // Match the transition duration
   };
 
   return (
     <div>
-      <nav className={`navbar ${isScrolled ? 'scrolled' : ''} fixed-top navbar-expand-lg bg-`}>
+      <nav className={`navbar ${isScrolled ? 'scrolled' : ''} ${stick ? 'stick' : ''}  navbar-expand-lg bg-`}>
         <div className="container-fluid">
           <Link className="navbar-brand" to="http://iamsourav.netlify.app" style={{ color: "yellow" }}>Sourav.</Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded={isOpen} aria-label="Toggle navigation" onClick={toggleMenu}>

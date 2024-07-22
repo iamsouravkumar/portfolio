@@ -20,6 +20,12 @@ body {
   z-index: 2;
 }
 
+.stick{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .navbar.scrolled {
   background-color: #01E3F4;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -28,24 +34,6 @@ body {
 .navbar.scrolled .navbar-brand,
 .navbar.scrolled .nav-link {
   color: black !important;
-}
-
-.navbar.scrolled .navbar-toggler {
-  background-color: black;
-}
-
-.navbar.scrolled .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='gold' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
-}
-
-.navbar.scrolled .navbar-nav {
-  gap: 5px !important;
-}
-
-.navbar.scrolled .nav-item {
-  /* border: 1px solid black !important; */
-  border-radius: 5px;
-  background: gold;
 }
 
 .navbar-brand {
@@ -71,15 +59,6 @@ body {
   background-color: white;
 }
 
-.collapse {
-  overflow: hidden;
-  transition: height 0.5s ease;
-}
-
-.collapse.collapsing {
-  max-height: 0;
-}
-
 .main {
   display: flex;
   justify-content: space-between;
@@ -87,7 +66,7 @@ body {
   width: 90%;
   height: auto;
   padding: 0 5rem;
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
   border-radius: 10px;
   background-color: #3e3e3e;
   box-shadow: #000000ee 0 10px 25px;
@@ -98,7 +77,7 @@ body {
   font-family: poppins;
   text-align: center;
   font-size: 2rem;
-  margin-top: 3.5rem;
+  /* margin-top: 3.5rem; */
   padding: 1rem 0;
 }
 
@@ -342,7 +321,7 @@ body {
 
 .skill-summary {
   height: auto;
-  margin-top: 5rem;
+  margin-top: 2rem;
   margin-bottom: 5rem;
   border-radius: 10px;
   background-color: #3e3e3e;
@@ -353,7 +332,7 @@ body {
 .portfolio {
   height: auto;
   padding: 1.5rem 2rem;
-  margin-top: 5rem;
+  margin-top: 2rem;
   margin-bottom: 4rem;
   border-radius: 10px;
   background-color: #3e3e3e;
@@ -530,7 +509,7 @@ body {
   height: auto;
   padding: 1rem 2rem;
   border-radius: 10px;
-  margin-top: 5rem;
+  margin-top: 2rem;
   margin-bottom: 4rem;
   background-color: #3e3e3e;
   box-shadow: #000000ee 0 10px 25px;
@@ -569,7 +548,7 @@ body {
   height: auto;
   padding: 3vh;
   border-radius: 10px;
-  margin-top: 5rem;
+  margin-top: 2rem;
   margin-bottom: 4rem;
   color: white;
   background-color: #3e3e3e;
@@ -752,15 +731,38 @@ width: 100%;
     padding: 0 1rem;
   }
 
-  .main {
-    margin-bottom: 5rem;
-  }
-
   .main-h1 {
-    margin-top: 4rem;
+    margin-top: 15px;
     padding: 0;
     font-size: 1.7rem;
   }
+
+  .navbar.scrolled .navbar-nav {
+    gap: 5px !important;
+  }
+  
+  .navbar.scrolled .nav-item {
+    /* border: 1px solid black !important; */
+    border-radius: 5px;
+    background: gold;
+  }
+
+  .navbar.scrolled .navbar-toggler {
+    background-color: black;
+  }
+  
+  .navbar.scrolled .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='gold' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+  }
+
+  .collapse {
+    overflow: hidden;
+    transition: height 0.5s ease;
+  }
+  
+  .collapse.collapsing {
+    max-height: 0;
+  }  
 
   .navbar-brand {
     font-size: 1.4rem;
