@@ -347,6 +347,7 @@ body {
 }
 
 .portfolio-card {
+  cursor: pointer;
   border: 1px solid white;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
