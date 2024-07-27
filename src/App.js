@@ -8,6 +8,7 @@ import Contact from './components/Contact';
 import SkillSummary from './components/SkillSummary';
 import ChatButton from './components/ChatButton';
 import Portfolio from './components/Portfolio';
+import { ToastContainer } from 'react-toastify';
 
 function App() {
 
@@ -41,6 +42,7 @@ function App() {
   return (
     <>
       <RouterProvider router={router} />
+      <ToastContainer/>
       <ChatButton/>
       <Footer/>
     </>

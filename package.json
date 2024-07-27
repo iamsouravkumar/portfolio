@@ -12,6 +12,7 @@
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.25.1",
     "react-scripts": "5.0.1",
+    "react-toastify": "^10.0.5",
     "react-type-animation": "^3.2.0",
     "react-typed": "^2.0.12",
     "react-whatsapp-button": "^2.0.0",

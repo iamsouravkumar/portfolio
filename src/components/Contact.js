@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import emailjs from 'emailjs-com';
-import Popup from './Popup';
+// import Popup from './Popup';
+import {toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -9,8 +11,8 @@ const Contact = () => {
     email: '',
     message: '',
   });
-  const [showPopup, setShowPopup] = useState(false);
-  const [popupMessage, setPopupMessage] = useState('');
+  // const [showPopup, setShowPopup] = useState(false);
+  // const [popupMessage, setPopupMessage] = useState('');
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -26,8 +28,10 @@ const Contact = () => {
     emailjs.send('iamsourav', 'template_email', formData, 'D2RcYQlTjBavPsi7G')
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
-        setPopupMessage('Message sent successfully!');
-        setShowPopup(true);
+// Suggested code may be subject to a license. Learn more: ~LicenseLog:1595350267.
+        toast.success("Message sent successfully!");
+        // setPopupMessage('Message sent successfully!');
+        // setShowPopup(true);
         setFormData({
           name: '',
           email: '',
@@ -36,13 +40,14 @@ const Contact = () => {
 
       }, (error) => {
         console.log('FAILED...', error);
-        setPopupMessage('Failed to send message.');
-        setShowPopup(true);
+        toast.error("Failed to send message.");        
+        // setPopupMessage('Failed to send message.');
+        // setShowPopup(true);
       });
   };
-  const closePopup = () => {
-    setShowPopup(false);
-  };
+  // const closePopup = () => {
+  //   setShowPopup(false);
+  // };
 
   return (
     <div className="all">
@@ -76,7 +81,7 @@ const Contact = () => {
         </form>
         
         </div>
-        {showPopup && <Popup message={popupMessage} onClose={closePopup} />}
+        {/* {showPopup && <Popup message={popupMessage} onClose={closePopup} />} */}
         
       </div>
     </div>
