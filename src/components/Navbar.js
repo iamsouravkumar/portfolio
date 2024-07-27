@@ -32,7 +32,7 @@ const Navbar = () => {
       setTimeout(() => {
         setIsOpen(false);
         setCollapsing(false);
-      }, ); // Match the transition duration
+      },); // Match the transition duration
     } else {
       setIsOpen(true);
     }
@@ -43,7 +43,7 @@ const Navbar = () => {
     setTimeout(() => {
       setIsOpen(false);
       setCollapsing(false);
-    }, ); // Match the transition duration
+    },); // Match the transition duration
   };
 
   return (
@@ -57,24 +57,19 @@ const Navbar = () => {
           <div className={`collapse navbar-collapse ${isOpen ? 'show' : ''} ${collapsing ? 'collapsing' : ''}`} id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <NavLink className="nav-link" aria-current="page" to="/home" onClick={closeMenu} end style={({ isActive }) =>
-                  isActive ? { color: 'black', backgroundColor: '#01E3F4' } : undefined}>Home</NavLink>
+                <NavLink className="nav-link" aria-current="page" to="/home" onClick={closeMenu} end >Home</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/portfolio" onClick={closeMenu} end style={({ isActive }) =>
-                  isActive ? { color: 'black', backgroundColor: '#01E3F4' } : undefined}>Portfolio</NavLink>
+                <NavLink className="nav-link" to="/portfolio" onClick={closeMenu} end >Portfolio</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/skill" onClick={closeMenu} end style={({ isActive }) =>
-                  isActive ? { color: 'black', backgroundColor: '#01E3F4' } : undefined}>Skills</NavLink>
+                <NavLink className="nav-link" to="/skill" onClick={closeMenu} end >Skills</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/about" onClick={closeMenu} end style={({ isActive }) =>
-                  isActive ? { color: 'black', backgroundColor: '#01E3F4' } : undefined}>About</NavLink>
+                <NavLink className="nav-link" to="/about" onClick={closeMenu} end >About</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/contact" onClick={closeMenu} end style={({ isActive }) =>
-                  isActive ? { color: 'black', backgroundColor: '#01E3F4' } : undefined}>Contact</NavLink>
+                <NavLink className="nav-link" to="/contact" onClick={closeMenu} end >Contact</NavLink>
               </li>
             </ul>
           </div>
