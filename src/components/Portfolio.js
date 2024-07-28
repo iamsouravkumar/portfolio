@@ -28,6 +28,12 @@ const Project = () => {
           link:'https://github.com/iamsouravkumar/portfolio'
         },
         {
+          title:'Demo School Website',
+          description:'It is a version of a demo school website made with react and all the data present in the wesbite are the demo data and does not related to any real data.',
+          image:'../images/school.jpg',
+          link:'https://github.com/iamsouravkumar/school_website_react_js'
+        },
+        {
           title: 'Text Manipulator',
           description: 'It is a text editor tool that contains all the functionality that a text editor tool must have. with the help of its features, users can easily manipulate their text.',
           image: '../images/text.jpg',
