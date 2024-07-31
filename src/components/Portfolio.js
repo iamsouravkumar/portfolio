@@ -5,7 +5,7 @@ const Project = () => {
   const myProjects = [
     {
       title: 'Weather App with daily and hourly forecasts.',
-      description: 'It is an API based weather app shows the real time weather across the world. it also shows the daily and hourly forecasts. it contains all the features that a weather app must have such as humidity, wind speed, and temperature, etc.',
+      description: 'It is an API based weather app shows the real time weather across the world. it also shows the daily and hourly forecasts. it contains all the features that a weather app must have such as humidity, wind speed, and heat index, etc.',
       image: '../images/weather.jpg',
       link: 'https://iamsouravkumar.github.io/weather_forecast_app/'
     },
