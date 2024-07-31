@@ -14,7 +14,7 @@ function App() {
 
   const router = createBrowserRouter([
     {
-      path: "/portfolio",
+      path: "/",
       element: <><Navbar/><Main /></>,
     },
     {
@@ -41,7 +41,7 @@ function App() {
 
   return (
     <>
-      <RouterProvider router={router} baseline='/portfolio' />
+      <RouterProvider router={router} />
       <ToastContainer/>
       <ChatButton/>
       <Footer/>
