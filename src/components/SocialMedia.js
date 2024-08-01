@@ -27,7 +27,7 @@ const SocialMedia = () => {
                 </div>
             </div>
             <div>
-                <a href="https://drive.google.com/file/d/1lWugghfGeuSW7RRuzstf0_N_Nh-_gtMN/view?usp=sharing"><motion.button 
+                <a href="https://drive.google.com/file/d/18a8fk8DUITi_KpGTSkHkNkhLpl1iDRKg/view?usp=sharing"><motion.button 
                 type="button" 
                 className="my-4 button" 
                 whileHover={{ scale: 1.05 }}
