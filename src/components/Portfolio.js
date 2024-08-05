@@ -29,7 +29,7 @@ const Project = () => {
     },
     {
       title: 'Personal Portfolio',
-      description: 'It is my personal portfolio website totally made up of React reusable components. here you can check my skills and projects on this website,
+      description: 'It is my personal portfolio website totally made up of React reusable components. here you can check my skills and projects on this website',
       image: '../images/portfolio.jpg',
       link: 'https://iamsourav.netlify.app'
     },
