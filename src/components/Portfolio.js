@@ -40,10 +40,10 @@ const Project = () => {
       link: 'https://github.com/iamsouravkumar/school_website_react_js'
     },
     {
-      title: 'Text Manipulator',
+      title: 'Texter - Text Manipulator',
       description: 'It is a text editor tool that contains all the functionality that a text editor tool must have. with the help of its features, users can easily manipulate their text.',
       image: '../images/text.jpg',
-      link: 'https://github.com/iamsouravkumar/TextUtils_React_App'
+      link: 'https://texterr.netlify.app'
     }
   ];
   return (
