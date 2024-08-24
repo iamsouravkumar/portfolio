@@ -19,7 +19,7 @@ const Main = () => {
                 </h1>
                 <div className='container main'>
                     <div className='intro'>
-                        <motion.div 
+                        <motion.div
                             className="main-img"
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
@@ -49,7 +49,7 @@ const Main = () => {
                                 </span></h4>
                             </div>
 
-                            <div className='main-text my-4'>Hi, I'm a FullStack Web Developer who loves bringing ideas to life on the web. From designing cool interfaces to making sure everything works perfectly behind the scenes, I enjoy every part of the process. Let's create something awesome together!</div>
+                            <div className='main-text my-4'>Hi, I am Sourav, a skilled Full-stack developer specializing in Web development, Frontend development, Software development, and MERN Stack Development. Proficient in HTML, CSS, JavaScript, React.js, Node.Js, Bootstrap, Tailwind CSS, MongoDB, and more. Experienced in creating responsive, user-friendly web applications, collaborating with designers and developers, and staying updated on industry trends.!</div>
                             <SocialMedia />
 
                         </div>
