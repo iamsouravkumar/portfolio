@@ -28,7 +28,6 @@ const Contact = () => {
     emailjs.send('iamsourav', 'template_email', formData, 'D2RcYQlTjBavPsi7G')
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
-// Suggested code may be subject to a license. Learn more: ~LicenseLog:1595350267.
         toast.success("Message sent successfully!");
         // setPopupMessage('Message sent successfully!');
         // setShowPopup(true);
