@@ -10,19 +10,21 @@ const Skill = () => {
           <div className='skill container'>
 
             <div className='img-container'>
-              <motion.img src="../images/html.png" alt="HTML"
+              <motion.img src="../images/html.webp" 
+              alt="HTML"
+              
                 whileHover={{ scale: 1.5 }}
                 whileTap={{ scale: 0.95 }}
                 transition={{ duration: 0.3 }}
-                style={{ willChange: 'transform' }} />
+                style={{ willChange: 'transform', height: '150px', width: '150px' }} />
             </div>
 
             <div className='img-container'>
-              <motion.img src="../images/css.png" alt="CSS"
+              <motion.img src="../images/css.webp" alt="CSS"
                 whileHover={{ scale: 1.5 }}
                 whileTap={{ scale: 0.95 }}
                 transition={{ duration: 0.3 }}
-                style={{ willChange: 'transform' }} />
+                style={{ willChange: 'transform', height: '150px', width: '150px' }} />
             </div>
 
             <div className='img-container'>
@@ -30,32 +32,46 @@ const Skill = () => {
                 whileHover={{ scale: 1.5 }}
                 whileTap={{ scale: 0.95 }}
                 transition={{ duration: 0.3 }}
-                style={{ willChange: 'transform' }} />
+                style={{ willChange: 'transform', height: '150px', width: '150px' }} />
             </div>
 
             <div className='img-container'>
-              <motion.img src="../images/react.png" alt="React.Js"
+              <motion.img src="../images/react.webp" alt="React.Js"
                 whileHover={{ scale: 1.5 }}
                 whileTap={{ scale: 0.95 }}
                 transition={{ duration: 0.3 }}
-                style={{ willChange: 'transform' }} />
+                style={{ willChange: 'transform', height: '180px', width: '180px' }} />
             </div>
 
             <div className='img-container'>
-              <motion.img src="../images/node.png" alt="Node.Js"
+              <motion.img src="../images/node.webp" alt="Node.Js"
                 whileHover={{ scale: 1.5 }}
                 whileTap={{ scale: 0.95 }}
                 transition={{ duration: 0.3 }}
-                style={{ willChange: 'transform' }} />
+                style={{ willChange: 'transform', height: '180px', width: '180px' }} />
+            </div>
+
+            <div className='img-container'>
+              <motion.img src="../images/tailwind.png" alt="Tailwind CSS" whileHover={{ scale: 1.5 }}
+                whileTap={{ scale: 0.95 }}
+                transition={{ duration: 0.3 }}
+                style={{ willChange: 'transform', height: '160px', width: '160px' }} />
+            </div>
+            
+            <div className='img-container'>
+              <motion.img src="../images/bootstrap.png" alt="Bootstrap" whileHover={{ scale: 1.5 }}
+                whileTap={{ scale: 0.95 }}
+                transition={{ duration: 0.3 }}
+                style={{ willChange: 'transform', height: '150px', width: '150px', borderRadius:'50%' }} />
             </div>
 
             <div className='img-container'>
               <motion.img src="../images/dbs.svg" alt="Database" whileHover={{ scale: 1.5 }}
                 whileTap={{ scale: 0.95 }}
                 transition={{ duration: 0.3 }}
-                style={{ willChange: 'transform' }} />
+                style={{ willChange: 'transform', height: '140px', width: '140px' }} />
             </div>
-
+            
           </div>
         </div>
       </div>

@@ -489,25 +489,28 @@ body {
   width: 32%;
   height: auto;
   border: 1px solid gray;
+  overflow: hidden;
+  border-radius: 10px;
 }
 
 .img-container:hover {
-  background-color: rgb(204, 204, 204);
-  box-shadow: #01E3F4 0 5px 15px;
+  background-color: #01E3F4;
+  /* box-shadow: #01E3F4 0 5px 15px; */
+  border: 2px solid gold;
   cursor: pointer;
 }
 
 .img-container img {
   /* transition: transform 0.3s; */
   display: cover;
-  width: 38%;
+  overflow: hidden;;
+  /* width: 38%; */
   height: auto;
 }
 
-/* .img-container img:hover {
-  transform: scale(1.5);
-
-} */
+.img-container img:hover {
+  filter: drop-shadow(0 8px 5px black);
+}
 
 .hr {
   position: relative;
@@ -735,6 +738,7 @@ width: 100%;
   }
 
   .img-container {
+    overflow: hidden;
     width: 80%;
   }
 
@@ -832,6 +836,7 @@ width: 100%;
   .img-container {
     padding: 1rem 0;
     width: 98%;
+    overflow: hidden;
   }
 
   .img-container img {
