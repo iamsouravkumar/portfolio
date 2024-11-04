@@ -6,7 +6,29 @@
   box-sizing: border-box;
 }
 
+/* Suggested code may be subject to a license. Learn more: ~LicenseLog:3085036460. */
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+::-webkit-scrollbar-track {
+  background: yellow;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: #01E3F4;
+  border: 1px solid #333333;
+  cursor: pointer;
+}
+
 body {
+  font-family: 'Poppins', sans-serif;
   background-color: #000000e1;
 }
 
