@@ -7,7 +7,7 @@ const SocialMedia = () => {
             <div className="wrapper">
                 <div className="icon facebook">
                     <div className="tooltip">Facebook</div>
-                    <span><a style={{ color: "white" }} href="http://facebook.com/sourav45k"><i className="fa fa-facebook"></i></a></span>
+                    <span><a style={{ color: "white" }} href="http://facebook.com/iamsourav2005"><i className="fa fa-facebook"></i></a></span>
                 </div>
                 <div className="icon twitter">
                     <div className="tooltip">Twitter</div>
