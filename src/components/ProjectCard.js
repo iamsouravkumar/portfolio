@@ -18,7 +18,7 @@ const ProjectCard = ({ title, description, image, link }) => {
         <div className="portfolio-info">
           <img className='portfolio-image' src={image} alt={title} />
           <h3>{title}</h3>
-          <p>{description}</p>
+          <p>{description.length > 100 ? description.slice(0, 100) + '...' : description}</p>
         </div>
       </motion.div>
       <Modal
