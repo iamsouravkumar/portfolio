@@ -4,6 +4,13 @@ import ProjectCard from './ProjectCard';
 const Project = () => {
   const myProjects = [
     {
+      title: 'NovaMind – An Intelligent and Versatile AI GPT/Chatbot',
+      description: "NovaMind is a cutting-edge AI GPT/chatbot built using Google Generative AI, Vite.js, and Firebase. It offers intelligent conversational capabilities with features like chat history, allowing users to save and revisit past conversations from anywhere in the world. With secure authentication, users' data remains private and accessible only to them. NovaMind assists with a variety of tasks, including coding, programming, mathematics, and general queries, all wrapped in a uniquely designed and intuitive UI/UX.",
+      image: '../images/gpt.png',
+      link: 'https://iamsouravkumar.github.io/NovaMind/'
+    },
+
+    {
       title: 'Weather App with daily and hourly forecasts.',
       description: 'It is an API-based weather app that shows the real-time weather across the world. it also shows the daily and hourly forecasts. it contains all the features that a weather app must have such as humidity, wind speed, heat index, etc.',
       image: '../images/weather.jpg',
